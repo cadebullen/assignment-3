@@ -234,7 +234,6 @@ class App extends Component {
       .attr("y", height / 2)
       .style("font-size", (d) => `${fontSizeScale(d[1])}px`);
 
-    words;
     words
       .exit()
       .transition()
