@@ -206,7 +206,7 @@ class App extends Component {
 
     const words = svg.selectAll(".word").data(data, (d) => d[0]);
 
-    const wordsEnter = words
+    words
       .enter()
       .append("text")
       .attr("class", "word")
